@@ -1,0 +1,76 @@
+/* Globals */
+/* Arimo Font*/
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap");
+:root {
+  /* Fonts*/
+  --font-roboto: 'Roboto', sans-serif;
+}
+
+/*En este archivo coloco todos los elementos que quiero que tengan estilos generales*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: var(--font-roboto);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+body {
+  background-color: #EDEFF2;
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 150px;
+  gap: 30px;
+}
+
+main {
+  width: -webkit-fill-available;
+}
+
+aside {
+  width: 100%;
+  max-width: 255px;
+  height: 350px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background-color: #00d9ff;
+  height: 100vh;
+}
+
+.categoryTitle {
+  padding-top: 150px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #4D5E80;
+  max-width: 1200px;
+  margin: 0 auto 30px;
+}
+/*# sourceMappingURL=index.css.map */
